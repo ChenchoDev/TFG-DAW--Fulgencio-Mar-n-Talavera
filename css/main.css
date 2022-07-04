@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,500&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    border: 10px solid black;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.btntipo {
+    border: 5px solid rgb(33, 197, 1);
+    background-color: white;
+    padding: 5px;
+}
+
+.subbanner {
+    height: 20px;
+    background: black;
+    padding: 25px;
+}
+
+.cita {
+    color: white;
+    font-weight: bold;
+}
