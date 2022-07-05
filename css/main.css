@@ -1,29 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,500&display=swap');
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.subbanner a:hover {
+    color: white;
 }
 
 .navbar {
     border: 10px solid black;
 }
 
-.header {
+.header p {
     font-weight: bold;
 }
 
 .btntipo {
-    border: 5px solid rgb(33, 197, 1);
+    border: 5px solid rgb(24, 138, 1);
+    color: rgb(24, 138, 1);
     background-color: white;
     padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btntipo:hover {
+    background-color: rgb(24, 138, 1);
+    color: white;
+    font-weight: bold;
+}
+
+.span {
+    color: rgb(24, 138, 1);
 }
 
 .subbanner {
-    height: 20px;
+    height: 10px;
     background: black;
-    padding: 25px;
+    padding: 15px;
 }
 
 .cita {
     color: white;
     font-weight: bold;
+}
+
+.content_header {
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header.jpg");
+    background-color: #cccccc;
+    filter: saturate(2);
+    /* Used if the image is unavailable */
+    height: 100vh;
+    /* You must set a specified height */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    border: 10px solid black;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_header1 {
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header1.jpg");
+    background-color: #cccccc;
+    filter: saturate(2);
+    /* Used if the image is unavailable */
+    height: 100vh;
+    /* You must set a specified height */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    border: 10px solid black;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_login {
+    background-image: linear-gradient( to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/login.jpg");
+    background-color: #cccccc;
+    filter: saturate(2);
+    /* Used if the image is unavailable */
+    /* You must set a specified height */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    border: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    overflow-x: hidden;
+    display: flex;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4ch;
+}
+
+section:nth-child(even) {
+    background-color: teal;
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+img {
+    max-height: 70%;
+}
+
+.formulario {
+    background-color: rgba(16, 18, 20, 0.5);
+    height: 33%;
+    width: 33%;
+    padding: 40px;
 }
